@@ -1,0 +1,13 @@
+@charset "Big5";
+.Body_18 {
+	font-size: 18px;
+	line-height: 20pt;
+	color: #000000;
+}
+.Heading_18 {
+	font-size: 18px;
+	font-weight: bold;
+	color: #FFF;
+	font-style: normal;
+	text-align: left;
+}
