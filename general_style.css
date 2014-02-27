@@ -1,0 +1,33 @@
+a:link {
+    color: #FC3;
+}
+
+table.maintable {
+    border-color: #666666;
+    background-color: #FFFFFF;
+    width: 948px;
+    border-width: 0px;
+    margin: auto;
+    padding: 0px;
+    border-spacing: 0px;
+    border-collapse: separate;
+    box-shadow: 10px 10px 5px #444444;
+}
+
+.newsheader {
+    background-color: #195F95;
+    text-align: left;
+    font-weight: bold;
+    vertical-align: top;
+    margin: 1000px;
+
+}
+
+body {
+    background-repeat: no-repeat;
+    background-color: #ab722b;
+}
+
+.style1 {
+    font-size: small
+}
