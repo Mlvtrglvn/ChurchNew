@@ -31,3 +31,12 @@ body {
 .style1 {
     font-size: small
 }
+
+.mass {
+    width: 100%;
+    border: 0;
+}
+
+.title {
+    background-color: #ECC052;
+}
