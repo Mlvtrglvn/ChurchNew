@@ -20,75 +20,65 @@
         }
         //-->
     </script>
-    <link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css"/>
+    <!--    <link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css"/> -->
     <link rel="stylesheet" type="text/css" href="./general_style.css"/>
 </head>
+
 <body>
-<table class="maintable">
-    <tr style="text-align: center">
-        <td><h1>St. Vincent's church Hang Hau</h1></td>
-        <!--TODO: fix header image!!! -->
-    </tr>
-    <tr>
-        <td style="background-color: #ECC052">
-            <!-- Top Menu Update -->
-            <ul id="MenuBar" class="MenuBarHorizontal">
-                <li><a class="MenuBarItemSubmenu" href="../index.html"><strong>Home page</strong></a></li>
-                <li><a class="MenuBarItemSubmenu" href="01_pastors/01_pastors.html"><strong>Pastoral team</strong></a>
-                </li>
-                <li id="menu02"><a class="MenuBarItemSubmenu"
-                                   href="javascript:showsubmenu('submenu02')"><strong>History</strong></a></li>
-                <li><a class="MenuBarItemSubmenu"
-                       href="03_activities/03_activities.html"><strong>Activities</strong></a></li>
-                <li><a class="MenuBarItemSubmenu"
-                       href="06_catechumens/06_catechumens.html"><strong>Announcements</strong></a></li>
+<article>
+    <header><h1>St. Vincent's church Hang Hau</h1></header>
+    <!--TODO: fix header image!!! -->
+
+    <nav id="topmenu" style="background-color: #ECC052">
+        <!-- Top Menu Update -->
+        <ul id="MenuBar" class="MenuBarHorizontal">
+            <li><a class="MenuBarItemSubmenu" href="../index.html"><strong>Home page</strong></a></li>
+            <li><a class="MenuBarItemSubmenu" href="01_pastors/01_pastors.html"><strong>Pastoral team</strong></a>
+            </li>
+            <li id="menu02"><a class="MenuBarItemSubmenu"
+                               href="javascript:showsubmenu('submenu02')"><strong>History</strong></a></li>
+            <li><a class="MenuBarItemSubmenu"
+                   href="03_activities/03_activities.html"><strong>Activities</strong></a></li>
+            <li><a class="MenuBarItemSubmenu"
+                   href="06_catechumens/06_catechumens.html"><strong>Announcements</strong></a></li>
 
 
-            </ul>
+        </ul>
 
-            <div style="display:none; position: absolute; background-color: #A01759; padding:10px; width:110px"
-                 id="submenu02">
-                <div style="height:25px;"><a href="02_parish_info/02_parish_info_intro.html"
-                                             style="color: #FFF; text-decoration: none"><strong>堂區介紹</strong></a></div>
-                <div style="height:25px;"><a href="02_parish_info/02_parish_info_history.html"
-                                             style="color: #FFF; text-decoration: none"><strong>堂區歷史</strong></a></div>
-                <div style="height:25px;"><a href="02_parish_info/02_parish_info_patron.html"
-                                             style="color: #FFF; text-decoration: none"><strong>堂區主保</strong></a></div>
-                <div style="height:25px;"><a href="02_parish_info/02_parish_info_com.html"
-                                             style="color: #FFF; text-decoration: none"><strong>善會組織</strong></a></div>
-                <div style="height:25px;"><a href="02_parish_info/02_parish_info_design.html"
-                                             style="color: #FFF; text-decoration: none"><strong>堂區設計</strong></a></div>
-            </div>
-            <!-- Top Menu Update End -->
-        </td>
-    </tr>
-    <tr>
-        <td><h1>Announcements</h1></td>
-    </tr>
-    <td>
+        <div style="display:none; position: absolute; background-color: #A01759; padding:10px; width:110px"
+             id="submenu02">
+            <div style="height:25px;"><a href="02_parish_info/02_parish_info_intro.html"
+                                         style="color: #FFF; text-decoration: none"><strong>堂區介紹</strong></a></div>
+            <div style="height:25px;"><a href="02_parish_info/02_parish_info_history.html"
+                                         style="color: #FFF; text-decoration: none"><strong>堂區歷史</strong></a></div>
+            <div style="height:25px;"><a href="02_parish_info/02_parish_info_patron.html"
+                                         style="color: #FFF; text-decoration: none"><strong>堂區主保</strong></a></div>
+            <div style="height:25px;"><a href="02_parish_info/02_parish_info_com.html"
+                                         style="color: #FFF; text-decoration: none"><strong>善會組織</strong></a></div>
+            <div style="height:25px;"><a href="02_parish_info/02_parish_info_design.html"
+                                         style="color: #FFF; text-decoration: none"><strong>堂區設計</strong></a></div>
+        </div>
+        <!-- Top Menu Update End -->
+    </nav>
+    <br/>
 
-        <table style="width: 80%">
-        <tr>
-                <th class="newsheader">Header</th>
-            </tr>
-            <tr class="content">
-                <td>Text goes here</td>
-            </tr>
+    <h2>Announcements</h2>
 
-            <tr class="newsheader">
-                <th>Header</th>
-            </tr>
-            <tr class="content">
-                <td>Text goes here</td>
-            </tr>
-        </table>
-    </td>
-</table>
+    <div class="newsheader">Header</div>
+    <div class="content">
+        Text goes here
+    </div>
 
-<script type="text/javascript">
-    <!--
-    var MenuBar1 = new Spry.Widget.MenuBar("MenuBar", {imgDown: "SpryAssets/SpryMenuBarDownHover.gif", imgRight: "SpryAssets/SpryMenuBarRightHover.gif"});
-    //-->
-</script>
+    <div class="newsheader">Header</div>
+    <div class="content">
+        Text goes here
+    </div>
+
+    <script type="text/javascript">
+        <!--
+        var MenuBar1 = new Spry.Widget.MenuBar("MenuBar", {imgDown: "SpryAssets/SpryMenuBarDownHover.gif", imgRight: "SpryAssets/SpryMenuBarRightHover.gif"});
+        //-->
+    </script>
+</article>
 </body>
 </html>

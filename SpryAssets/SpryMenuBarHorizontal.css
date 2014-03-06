@@ -11,6 +11,7 @@
  *******************************************************************************/
 
 /* The outermost container of the Menu Bar, an auto width box with no margin or padding */
+
 ul.MenuBarHorizontal
 {
 	margin: 0;
@@ -18,8 +19,8 @@ ul.MenuBarHorizontal
 	list-style-type: none;
 	font-size: 100%;
 	cursor: default;
-	width: auto;
-	background-color: #ECC052;
+    width: 100%;
+    background-color: #ECC052;
 	color: #F0F0F0;
 }
 /* Set the active Menu Bar with this class, currently setting z-index to accomodate IE rendering bug: http://therealcrisp.xs4all.nl/meuk/IE-zindexbug.html */
