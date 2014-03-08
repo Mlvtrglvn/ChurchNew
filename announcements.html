@@ -26,59 +26,40 @@
 
 <body>
 <article>
-    <header><h1>St. Vincent's church Hang Hau</h1></header>
+    <header>
+        <h1>St. Vincent's church Hang Hau</h1>
+    </header>
     <!--TODO: fix header image!!! -->
 
-    <nav id="topmenu" style="background-color: #ECC052">
-        <!-- Top Menu Update -->
-        <ul id="MenuBar" class="MenuBarHorizontal">
-            <li><a class="MenuBarItemSubmenu" href="../index.html"><strong>Home page</strong></a></li>
-            <li><a class="MenuBarItemSubmenu" href="01_pastors/01_pastors.html"><strong>Pastoral team</strong></a>
-            </li>
-            <li id="menu02"><a class="MenuBarItemSubmenu"
-                               href="javascript:showsubmenu('submenu02')"><strong>History</strong></a></li>
-            <li><a class="MenuBarItemSubmenu"
-                   href="03_activities/03_activities.html"><strong>Activities</strong></a></li>
-            <li><a class="MenuBarItemSubmenu"
-                   href="06_catechumens/06_catechumens.html"><strong>Announcements</strong></a></li>
+    <section id="menu">
+        <nav id="topmenu">
+            <ul class="MenuBarHorizontal">
+                <li><a href="../index.html"><strong>Home page</strong></a></li>
+                <li><a href="01_pastors/01_pastors.html"><strong>Pastoral team</strong></a>
+                </li>
+                <li id="menu02"><a><strong>History</strong></a></li>
+                <li><a href="03_activities/03_activities.html"><strong>Activities</strong></a></li>
+                <li><a href="06_catechumens/06_catechumens.html"><strong>Announcements</strong></a></li>
+            </ul>
 
-
-        </ul>
-
-        <div style="display:none; position: absolute; background-color: #A01759; padding:10px; width:110px"
-             id="submenu02">
-            <div style="height:25px;"><a href="02_parish_info/02_parish_info_intro.html"
-                                         style="color: #FFF; text-decoration: none"><strong>堂區介紹</strong></a></div>
-            <div style="height:25px;"><a href="02_parish_info/02_parish_info_history.html"
-                                         style="color: #FFF; text-decoration: none"><strong>堂區歷史</strong></a></div>
-            <div style="height:25px;"><a href="02_parish_info/02_parish_info_patron.html"
-                                         style="color: #FFF; text-decoration: none"><strong>堂區主保</strong></a></div>
-            <div style="height:25px;"><a href="02_parish_info/02_parish_info_com.html"
-                                         style="color: #FFF; text-decoration: none"><strong>善會組織</strong></a></div>
-            <div style="height:25px;"><a href="02_parish_info/02_parish_info_design.html"
-                                         style="color: #FFF; text-decoration: none"><strong>堂區設計</strong></a></div>
-        </div>
-        <!-- Top Menu Update End -->
     </nav>
-    <br/>
+    </section>
+    <section id="subtitle">
+        <h2>Announcements</h2>
+    </section>
 
-    <h2>Announcements</h2>
+    <section id="pagecontent">
+        <div class="newsheader">Header</div>
+        <div class="newsitem">
+            Text goes here
+        </div>
 
-    <div class="newsheader">Header</div>
-    <div class="content">
-        Text goes here
-    </div>
+        <div class="newsheader">Header</div>
+        <div class="newsitem">
+            Text goes here
+        </div>
+    </section>
 
-    <div class="newsheader">Header</div>
-    <div class="content">
-        Text goes here
-    </div>
-
-    <script type="text/javascript">
-        <!--
-        var MenuBar1 = new Spry.Widget.MenuBar("MenuBar", {imgDown: "SpryAssets/SpryMenuBarDownHover.gif", imgRight: "SpryAssets/SpryMenuBarRightHover.gif"});
-        //-->
-    </script>
 </article>
 </body>
 </html>
