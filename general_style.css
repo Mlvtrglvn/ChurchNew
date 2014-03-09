@@ -62,3 +62,31 @@ nav {
 .title {
     background-color: #ECC052;
 }
+
+ul.MenuBarHorizontal {
+    padding: 0;
+    list-style-type: none;
+    font-size: 100%;
+    width: 100%;
+    float: left;
+    background-color: #ECC052;
+}
+
+ul.MenuBarHorizontal li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-size: 110%;
+    text-align: left;
+    float: left;
+}
+
+ul.MenuBarHorizontal a {
+    display: block;
+    cursor: pointer;
+    background-color: #ECC052;
+    padding: 0.5em 0.75em;
+    color: #333;
+    text-decoration: none;
+}
+
