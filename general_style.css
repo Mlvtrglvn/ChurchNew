@@ -23,6 +23,10 @@ article {
 }
 
 .newsitem {
+    padding-bottom: 10px;
+}
+
+.newsitem {
     margin: 4px;
     text-align: left;
 }
