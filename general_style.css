@@ -12,6 +12,7 @@ article {
     box-shadow: 10px 10px 5px #444444;
     padding-top: 0.5cm;
     overflow: auto;
+    font-family: AGothic, sans-serif;
 }
 
 #pagecontent {
