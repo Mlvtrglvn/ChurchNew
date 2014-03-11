@@ -6,15 +6,21 @@ a:link {
 
 article {
     border-color: #666666;
-    background-color: #FFFFFF;
+    background-color: white;
     width: 948px;
     margin: 0 auto;
     box-shadow: 10px 10px 5px #444444;
     padding-top: 0.5cm;
+    overflow: auto;
 }
 
 #pagecontent {
     padding-bottom: 20px;
+}
+
+.pagecontenthome {
+    float: right;
+    width: 75%;
 }
 
 .tablea td {
@@ -54,9 +60,6 @@ header {
 h1, h2, h3 {
     text-align: center;
     vertical-align: middle;
-}
-
-h2 {
 }
 
 nav {
@@ -110,5 +113,16 @@ ul.MenuBarHorizontal a {
 
 .tableright {
     padding-left: 10px;
+}
+
+#mass {
+    float: left;
+    width: 25%;
+}
+
+.massheader {
+    background-color: #377FC0;
+    color: white;
+    text-align: center;
 }
 
