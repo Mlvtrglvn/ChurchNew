@@ -13,6 +13,16 @@ article {
     padding-top: 0.5cm;
 }
 
+#pagecontent {
+    padding-bottom: 20px;
+}
+
+.tablea td {
+    vertical-align: middle;
+    empty-cells: show;
+    height: 18px;
+}
+
 .newsheader {
     background-color: lightskyblue;
     text-align: left;
@@ -92,5 +102,13 @@ ul.MenuBarHorizontal a {
     padding: 0.5em 0.75em;
     color: #333;
     text-decoration: none;
+}
+
+.tableleft {
+
+}
+
+.tableright {
+    padding-left: 10px;
 }
 
