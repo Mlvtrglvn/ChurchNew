@@ -127,3 +127,9 @@ ul.MenuBarHorizontal a {
     text-align: center;
 }
 
+/* Google calendar */
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
