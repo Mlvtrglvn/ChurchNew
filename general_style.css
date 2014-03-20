@@ -24,6 +24,16 @@ article {
     width: 75%;
 }
 
+.pagecontentleft {
+    float: left;
+    width: 37.5%;
+}
+
+.pagecontentright {
+    float: right;
+    width: 37.5%;
+}
+
 .tablea td {
     vertical-align: middle;
     empty-cells: show;
