@@ -68,6 +68,15 @@ header {
     vertical-align: middle;
 }
 
+header h1 {
+    font-size: x-large;
+}
+
+header h2 {
+    font-size: smaller;
+    margin: 2px;
+}
+
 h1, h2, h3 {
     text-align: center;
     vertical-align: middle;
@@ -117,6 +126,7 @@ ul.MenuBarHorizontal a {
     padding: 0.5em 0.75em;
     color: #333;
     text-decoration: none;
+    font-weight: bold;
 }
 
 ul.submenu {
