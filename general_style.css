@@ -15,6 +15,11 @@ article {
     font-family: AGothic, sans-serif;
 }
 
+.background-navbar {
+    background-color: #ECC052;
+    font-weight: bold;
+}
+
 #pagecontent {
     padding-bottom: 20px;
 }
@@ -49,12 +54,13 @@ article {
     padding: 2px;
 }
 
-.newsitem {
-    padding-bottom: 10px;
+.center-header {
+    text-align: center;
 }
 
 .newsitem {
     margin: 4px;
+    padding-bottom: 10px;
     text-align: left;
 }
 
@@ -100,34 +106,34 @@ nav {
     background-color: #ECC052;
 }
 
-ul.MenuBarHorizontal {
-    padding: 0;
-    list-style-type: none;
-    font-size: 100%;
-    width: 100%;
-    float: left;
-    background-color: #ECC052;
-    margin-bottom: 0;
-}
+/*ul.MenuBarHorizontal {*/
+/*padding: 0;*/
+/*list-style-type: none;*/
+/*font-size: 100%;*/
+/*width: 100%;*/
+/*float: left;*/
+/*background-color: #ECC052;*/
+/*margin-bottom: 0;*/
+/*}*/
 
-ul.MenuBarHorizontal li {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    font-size: 110%;
-    text-align: left;
-    float: left;
-}
+/*ul.MenuBarHorizontal li {*/
+/*margin: 0;*/
+/*padding: 0;*/
+/*list-style-type: none;*/
+/*font-size: 110%;*/
+/*text-align: left;*/
+/*float: left;*/
+/*}*/
 
-ul.MenuBarHorizontal a {
-    display: block;
-    cursor: pointer;
-    background-color: #ECC052;
-    padding: 0.5em 0.75em;
-    color: #333;
-    text-decoration: none;
-    font-weight: bold;
-}
+/*ul.MenuBarHorizontal a {*/
+/*display: block;*/
+/*cursor: pointer;*/
+/*background-color: #ECC052;*/
+/*padding: 0.5em 0.75em;*/
+/*color: #333;*/
+/*text-decoration: none;*/
+/*font-weight: bold;*/
+/*}*/
 
 ul.submenu {
     padding: 0;
@@ -180,9 +186,19 @@ ul.submenu a {
     text-align: center;
 }
 
+.church-name {
+    font-weight: bold;
+}
+
+.address-line {
+    font-size: larger;
+}
+
 /* Google calendar */
 iframe {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
+
+

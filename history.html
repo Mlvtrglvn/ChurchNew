@@ -1,57 +1,62 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>-->
     <title>Announcements - St. Vincent's Church</title>
-    <script type="text/JavaScript">
-        <!--
-        function MM_preloadImages() { //v3.0
-            var d = document;
-            if (d.images) {
-                if (!d.MM_p) d.MM_p = new Array();
-                var i, j = d.MM_p.length, a = MM_preloadImages.arguments;
-                for (i = 0; i < a.length; i++)
-                    if (a[i].indexOf("#") != 0) {
-                        d.MM_p[j] = new Image;
-                        d.MM_p[j++].src = a[i];
-                    }
-            }
-        }
-        //-->
-    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+          integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css"
+          integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+            integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+            crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="./general_style.css"/>
 </head>
 
 <body>
 <article>
     <header>
-        <h1>St. Vincent's Church, Hang Hau</h1>
+        <h1 class="church-name">St. Vincent's Church, Hang Hau</h1>
 
-        <h2>DD 224, Lot 352, Hang Hau Road,</h2>
+        <h2 class="address-line">DD 224, Lot 352, Hang Hau Road,</h2>
 
-        <h2>Tel. 2719 8750 - 2719 9081 Fax. 2719 5114</h2>
+        <h2 class="address-line">Tel. 2719 8750 - 2719 9081 Fax. 2719 5114</h2>
 
-        <h2>e-mail: <a href="mailto:stvincent@catholic.org.hk">stvincent@catholic.org.hk</a></h2>
+        <h2 class="address-line">e-mail: <a href="mailto:stvincent@catholic.org.hk">stvincent@catholic.org.hk</a></h2>
     </header>
     <!--TODO: fix header image!!! -->
 
     <section id="menu">
-        <nav id="topmenu">
-            <ul class="MenuBarHorizontal">
-                <li><a href="./index.html">Home page</a></li>
-                <li><a href="./history.html">Our Church</a></li>
-                <li><a href="./announcements.html">Announcements</a></li>
-                <li><a href="./calendar.html">Calendar</a></li>
-                <li><a href="./index_old.htm">Old website</a></li>
-            </ul>
-
-            <ul class="submenu">
-                <li><a href="history.html" class="submenu-selected">History</a></li>
-                <li><a href="pastoral_team.html">Pastoral Team</a></li>
-            </ul>
-
+        <nav class="navbar navbar-default" id="topmenu">
+            <div class="container-fluid">
+                <ul class="nav navbar-nav background-navbar">
+                    <li><a href="./index.html">Home page</a></li>
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                           aria-expanded="false">Our Church <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li class="active"><a href="history.html">History</a></li>
+                            <li><a href="./pastoral_team.html">Pastoral team</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="./announcements.html">Announcements</a></li>
+                    <li><a href="./calendar.html">Calendar</a></li>
+                    <li><a href="./index_old.htm">Old website</a></li>
+                </ul>
+            </div>
         </nav>
     </section>
+
     <section id="subtitle">
         <h2>History</h2>
     </section>
