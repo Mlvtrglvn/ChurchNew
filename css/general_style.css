@@ -205,5 +205,8 @@ iframe {
     margin-right: auto;
 }
 
-
+#picture-menu {
+    float: left;
+    width: 25%;
+}
 
