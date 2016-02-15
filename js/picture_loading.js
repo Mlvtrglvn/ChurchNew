@@ -30,7 +30,7 @@ function select_pictures() {
         var $links = $('#links');
         $links.html('');
         for (var pic in picture_names) {
-            var path = './img/' + id + '/' + picture_names[pic];
+            var path = 'http://stvincent.catholic.org.hk/img/' + id + '/' + picture_names[pic];
             var child = '<a href="' + path + '" data-gallery>';
             child = child.concat('<img src="' + path + '" class="img-thumbnail"/>');
             child = child.concat('</a>');
