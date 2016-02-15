@@ -32,7 +32,7 @@
 </head>
 
 <body>
-<article>
+<article class="container">
     <header>
         <h1 class="church-name">St. Vincent's Church, Hang Hau</h1>
 
@@ -71,48 +71,53 @@
     </section>
 
     <section id="pagecontent">
-        <div class="list-group" id="picture-menu">
-            <a href="#" class="list-group-item active" id="feast-2015">
-                <h4>St Vincent feast 2015</h4>
-                <p>27th September 2015</p>
-            </a>
-        </div>
+        <div class="row">
+            <div class="list-group col-md-3 col-xs-12" id="picture-menu">
+                <a href="#" class="list-group-item active" id="feast-2015">
+                    <h4>St Vincent feast 2015</h4>
+                    <p>27th September 2015</p>
+                </a>
+            </div>
 
-        <!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
-        <div id="blueimp-gallery" class="blueimp-gallery">
-            <!-- The container for the modal slides -->
-            <div class="slides"></div>
-            <!-- Controls for the borderless lightbox -->
-            <h3 class="title"></h3>
-            <a class="prev">‹</a>
-            <a class="next">›</a>
-            <a class="close">×</a>
-            <a class="play-pause"></a>
-            <ol class="indicator"></ol>
-            <!-- The modal dialog, which will be used to wrap the lightbox content -->
-            <div class="modal fade">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" aria-hidden="true">&times;</button>
-                            <h4 class="modal-title"></h4>
-                        </div>
-                        <div class="modal-body next"></div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-default pull-left prev">
-                                <i class="glyphicon glyphicon-chevron-left"></i>
-                                Previous
-                            </button>
-                            <button type="button" class="btn btn-primary next">
-                                Next
-                                <i class="glyphicon glyphicon-chevron-right"></i>
-                            </button>
+            <!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
+            <div id="blueimp-gallery" class="blueimp-gallery">
+                <!-- The container for the modal slides -->
+                <div class="slides"></div>
+                <!-- Controls for the borderless lightbox -->
+                <h3 class="title"></h3>
+                <a class="prev">‹</a>
+                <a class="next">›</a>
+                <a class="close">×</a>
+                <a class="play-pause"></a>
+                <ol class="indicator"></ol>
+                <!-- The modal dialog, which will be used to wrap the lightbox content -->
+                <div class="modal fade">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" aria-hidden="true">&times;</button>
+                                <h4 class="modal-title"></h4>
+                            </div>
+                            <div class="modal-body next"></div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default pull-left prev">
+                                    <i class="glyphicon glyphicon-chevron-left"></i>
+                                    Previous
+                                </button>
+                                <button type="button" class="btn btn-primary next">
+                                    Next
+                                    <i class="glyphicon glyphicon-chevron-right"></i>
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
 
+            <div id="links" class="col-md-9 col-xs-12">
+                <a href="./img/feast-2015/abiders.jpg" data-gallery=""></a>
+            </div>
+        </div>
     </section>
 
 </article>

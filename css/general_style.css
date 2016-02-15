@@ -210,3 +210,8 @@ iframe {
     width: 25%;
 }
 
+.img-thumbnail {
+    max-width: 200px;
+    max-height: 200px;
+}
+
